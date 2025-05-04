@@ -1,0 +1,11 @@
+{
+  "Command":"Start AirPlay",
+  "Category":"AirPlay",
+  "Provider":"Kevin.Chen1220",
+  "SOC":["merlin7","merlin8","merlin9","mac7","mac8","mac9"],
+  "OS":["Android11","Android12","Android14"],
+  "Description":"Start AirPlay",
+  "Action":{
+    "Command1":"am broadcast -a \"com.realtek.media.airplay2.LAUNCH_HOME\" -n com.realtek.airplay2/com.realtek.media.airplay2.daemon.AirPlayBroadcastReceiver"
+  }
+}

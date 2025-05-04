@@ -1,0 +1,14 @@
+{
+  "Command":"GenRKP",
+  "Category":"Android",
+  "Provider":"Kevin.Chen1220",
+  "SOC":["merlin7","merlin8","merlin9","mac7","mac8","mac9"],
+  "OS":["Android11","Android12","Android14"],
+  "Description":"Generate RKP and Check System ID",
+  "Action":{
+    "Command":[
+      "rkp_factory_extraction_tool --output_format build{+}csr > /data/csr.json",
+      "dumpsys android.hardware.drm.IDrmFactory/widevine -p | grep system_id"
+    ]
+  }
+}

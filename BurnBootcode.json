@@ -1,0 +1,16 @@
+{
+  "Command":"BurnBootcode",
+  "Category":"Bootcode",
+  "Provider":"Kevin.Chen1220",
+  "SOC":["merlin7","merlin8","merlin9","mac7","mac8","mac9"],
+  "OS":["Android11","Android12","Android14"],
+  "Description":"Input Burn Bootcode Command",
+  "Action":{
+    "Command1":"usb start",
+    "Sleep1":"5",
+    "Command2":"fatload usb 0:1 1500000 dvrboot.rescue.exe.bin",
+    "Sleep2":"3",
+    "Command3":"go 0x1500000",
+    "Sleep3":"3"
+  }
+}

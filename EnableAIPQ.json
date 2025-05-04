@@ -1,0 +1,15 @@
+{
+  "Command":"EnableAIPQ",
+  "Category":"AI",
+  "Provider":"Kevin.Chen1220",
+  "SOC":["merlin7","merlin8","merlin9","mac7","mac8","mac9"],
+  "OS":["Android11","Android12","Android14"],
+  "Description":["Enable AIPQ",""],
+  "Action":{
+    "Command":[
+    "setprop vendor.rtk.ai.enable 1",
+    "echo ai_mode=1111111010 > /proc/ai/debug",
+    "echo ai_mode=1122222010 > /proc/ai/debug"
+    ]
+  }
+}

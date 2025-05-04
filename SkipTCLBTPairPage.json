@@ -1,0 +1,11 @@
+{
+  "Command":"SkipTCLBTPairPage",
+  "Category":"TCL",
+  "Provider":"Kevin.Chen1220",
+  "SOC":["merlin7","merlin8","merlin9","mac7","mac8","mac9"],
+  "OS":["Android11","Android12","Android14"],
+  "Description":"Skip SetupWarth BT Pair Page",
+  "Action":{
+    "Command":"am broadcast -a tcl.sys.intent.action.RC_PAIR_FAIL"
+  }
+}

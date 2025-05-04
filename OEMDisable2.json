@@ -1,0 +1,18 @@
+{
+  "Command":"OEMDisable2",
+  "Category":"Kernel",
+  "Provider":"Kevin.Chen1220",
+  "SOC":["merlin7","merlin8","merlin9","mac7","mac8","mac9"],
+  "OS":["Android11","Android12","Android14"],
+  "Description":"Disable OEM 2",
+  "Action":{
+    "Command1":"su",
+    "Sleep1":"1",
+    "Command2":"remount",
+    "Sleep2":"10",
+    "Command3":"chmod 755 -R /mnt/scratch/overlay",
+    "Sleep3":"1",
+    "Command4":"sync",
+    "Sleep4":"1"
+  }
+}

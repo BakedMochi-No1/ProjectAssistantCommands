@@ -1,0 +1,12 @@
+{
+  "Command":"Stressapptest",
+  "Category":"TCL",
+  "Provider":"Kevin.Chen1220",
+  "SOC":["merlin7","merlin8","merlin9","mac7","mac8","mac9"],
+  "OS":["Android11","Android12","Android14"],
+  "Description":"performance of app testing",
+  "Action":{
+    "Command1":"cd /data",
+    "Command2":"./stressapptest -s 200 -M 1000 -i 8 -m 8 -W"
+  }
+}

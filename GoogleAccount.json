@@ -1,0 +1,23 @@
+{
+  "Command":"GoogleAccount",
+  "Category":"Misc",
+  "Provider":"Kevin.Chen1220",
+  "SOC":["merlin7","merlin8","merlin9","mac7","mac8","mac9"],
+  "OS":["Android11","Android12","Android14"],
+  "Description":"Input Google Account",
+  "Action":{
+    "InputText1":"RTK.Kevin.Chen122",
+    "InputText2":"0@g",
+    "InputText3":"mail.com",
+    "Sleep1":"3",
+    "InputKeyEvent1":"BACK",
+    "InputKeyEvent2":"KEYCODE_DPAD_DOWN",
+    "InputKeyEvent3":"KEYCODE_DPAD_DOWN",
+    "InputKeyEvent4":"KEYCODE_DPAD_RIGHT",
+    "InputKeyEvent5":"ENTER",
+    "Sleep2":"10",
+    "InputText5":"#realtek122",
+    "InputText6":"0%",
+    "Sleep3":"5"
+  }
+}

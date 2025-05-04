@@ -1,0 +1,14 @@
+{
+  "Command":"NetflixAccount",
+  "Category":"Misc",
+  "Provider":"Kevin.Chen1220",
+  "SOC":["merlin7","merlin8","merlin9","mac7","mac8","mac9"],
+  "OS":["Android11","Android12","Android14"],
+  "Description":"Input Netflix Account",
+  "Action":{
+    "InputText1":"tester_rtk_tv_us_23@netflix.com",
+    "Sleep1":"5",
+    "InputText2":"Realtek@1234",
+    "Sleep2":"5"
+  }
+}

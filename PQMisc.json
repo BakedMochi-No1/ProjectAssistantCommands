@@ -1,0 +1,13 @@
+{
+  "Command":"PQ Misc",
+  "Category":"PQ",
+  "Provider":"Kevin.Chen1220",
+  "SOC":["merlin7","merlin8","merlin9","mac7","mac8","mac9"],
+  "OS":["Android11","Android12","Android14"],
+  "Description":[
+  "Disable MEMC, Using RTICE set 0xb8028100 bit13 0 to bypass",
+  "Disable VGIP, b8022210 bit[24]=0 bit[25]=0",
+  "Disable ld spi to comfirm backlight flash b802c900[28]=0",
+  "Disable DI b8024468[1]=0"
+  ]
+}

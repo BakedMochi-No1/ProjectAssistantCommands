@@ -1,0 +1,15 @@
+{
+  "Command":"DisalbeRTNR",
+  "Category":"PQ",
+  "Provider":"Kevin.Chen1220",
+  "SOC":["merlin7","merlin8","merlin9","mac7","mac8","mac9"],
+  "OS":["Android11","Android12","Android14"],
+  "Description":["Disalbe RTNR", 
+  "(1) Go to rtice -> PQ -> Debug -> VIP_Table_Access V0.5",
+  "(2) Set ID = 2200, Start Address = End Address = Mode0 = Mode1 = 0",
+  "(3) Click Write",
+  "(4) Disable NNSR: 0xB8028530[22:20] = 0; Disable RTNR: 0xB8022284[11:10] = 0 and 0xB8022284[3:2] = 0.",
+  "Note: After reselecting the source or changing the timing (e.g., when a black screen mask appears), NNSR and RTNR may be re-enabled automatically.",
+  "RTNR cannot be disabled in interlace mode.",
+  "URL = [ref=link][color=0000ff]https://jira.realtek.com/browse/ML8PBU-687[/color][/ref]"  ]
+}

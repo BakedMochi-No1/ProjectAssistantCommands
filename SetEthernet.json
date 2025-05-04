@@ -1,0 +1,12 @@
+{
+  "Command":"SetEthernet",
+  "Category":"Misc",
+  "Provider":"Kevin.Chen1220",
+  "SOC":["merlin7","merlin8","merlin9","mac7","mac8","mac9"],
+  "OS":["Android11","Android12","Android14"],
+  "Description":"Input Set Ethernet Command",
+  "Action":{
+    "Command1":"env set ethaddr1 e0:c3:b3:19:20:f3",
+    "Command2":"env save"
+  }
+}

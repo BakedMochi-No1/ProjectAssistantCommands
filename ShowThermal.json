@@ -1,0 +1,11 @@
+{
+  "Command":"ShowThermal",
+  "Category":"Kernel",
+  "Provider":"Kevin.Chen1220",
+  "SOC":["merlin7","merlin8","merlin9","mac7","mac8","mac9"],
+  "OS":["Android11","Android12","Android14"],
+  "Description":"Show Thermal Status, the result divided by 1000 is the temperature in Celsius.",
+  "Action":{
+    "Command1":"cat /sys/class/thermal/thermal_zone0/temp"
+  }
+}

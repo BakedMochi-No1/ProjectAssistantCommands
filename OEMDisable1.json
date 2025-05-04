@@ -1,0 +1,14 @@
+{
+  "Command":"OEMDisable1",
+  "Category":"Bootcode",
+  "Provider":"Kevin.Chen1220",
+  "SOC":["merlin7","merlin8","merlin9","mac7","mac8","mac9"],
+  "OS":["Android11","Android12","Android14"],
+  "Description":"Disable OEM 1",
+  "Action":{
+    "Command1":"env set OEMLock off",
+    "Sleep1":"1",
+    "Command2":"env save",
+    "Sleep2":"1"
+  }
+}
