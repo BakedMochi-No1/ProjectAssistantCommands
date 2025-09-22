@@ -1,11 +1,11 @@
 {
   "Command":"LogcatFilter",
-  "Category":"TCL",
+  "Category":"Logcat",
   "Provider":"Kevin.Chen1220",
   "SOC":["merlin7","merlin8","merlin9","mac7","mac8","mac9"],
   "OS":["Android11","Android12","Android14"],
   "Description":"logcat with filter",
   "Action":{
-    "Command1":"logcat -c;logcat -G 30M; logcat | egrep -ve \"IPv4LL|VFE_HDMI|FPP_THAL|FPP_CEC|HttpLog|SLR_INPUT_V_FREQ cannot\" "
+    "Command1":"logcat -c;logcat -G 30M; logcat | egrep -ve \"IPv4LL|VFE_HDMI|FPP_THAL|FPP_CEC|HttpLog|SLR_INPUT_V_FREQ cannot|PWM     :|FontLog :|resolv  :|T_IME_LOG:|I         :|VPQ     :|GraphicBufferAllocator:|IMGSRV  :|dvr_malloc_page_mesg|VIDEOFUNC:|VFE_AVD :|HdmiCec :\""
   }
 }

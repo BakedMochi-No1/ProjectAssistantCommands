@@ -1,0 +1,11 @@
+{
+  "Command": "ChangeProjectID",
+  "Category": "RTK",
+  "Provider": "Kevin.Chen1220",
+  "SOC": ["merlin7"],
+  "OS": ["Android11", "Android12", "Android14"],
+  "Description": "Change Demoboard Project ID",
+  "Action": {
+    "Command1": "projectidchanger"
+  }
+}

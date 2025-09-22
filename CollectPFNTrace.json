@@ -1,0 +1,12 @@
+{
+  "Command":"CollectPFNTrace",
+  "Category":"Kernel",
+  "Provider":"Kevin.Chen1220",
+  "SOC":["merlin7","merlin8","merlin9","mac7","mac8","mac9"],
+  "OS":["Android11","Android12","Android14"],
+  "Description":"CollectPFNTrace",
+  "Action":{
+	"Command1":"cd /data",
+    "Command2":"./end_trace_report.sh"
+  }
+}

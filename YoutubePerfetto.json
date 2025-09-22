@@ -1,0 +1,14 @@
+{
+  "Category": "Media",
+  "Provider": "Kevin.Chen1220",
+  "SOC": ["merlin7", "merlin8", "merlin9", "mac7", "mac8", "mac9"],
+  "OS": ["Android11", "Android12", "Android14"],
+  "Command": "Perfetto Media Record",
+  "Description": "Record a Perfetto for youtube",
+  "Action": {
+    "Command1": "rm -fr /data/misc/perfetto-traces/trace.pftrace",
+	"Sleep1": "1",
+	"Command2": "cat /data/Perfetto/config.pbtx | perfetto -c - --txt -o /data/misc/perfetto-traces/trace.pftrace",
+	"Sleep1": "20"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Command":"DisableButcher",
+  "Category":"Kernel",
+  "Provider":"Kevin.Chen1220",
+  "SOC":["merlin7","merlin8","merlin9","mac7","mac8","mac9"],
+  "OS":["Android11","Android12","Android14"],
+  "Description":"DisableButcher",
+  "Action":{
+    "Command1":"echo N > /sys/module/rtk_killer/parameters/user_enable_butcher"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Command":"LogcatAirPlayerFilter",
+  "Category":"Logcat",
+  "Provider":"Kevin.Chen1220",
+  "SOC":["merlin7","merlin8","merlin9","mac7","mac8","mac9"],
+  "OS":["Android11","Android12","Android14"],
+  "Description":"Airplay logcat with filter",
+  "Action":{
+    "Command1":"logcat -c;logcat -G 30M; logcat | egrep -ve \"VideoEsPlayer|airplay2|AirPlay|LCF     :|MFi     :|AirPlaySDK|LunaTTS|AirPlay-PCM|VideoEsPlayer|EsPlayer|LunaActivity|AudioRenderer|VideoRenderer|com.realtek.airplay2|HAP     :|Luna    :|TclPowerManagerService\""
+  }
+}

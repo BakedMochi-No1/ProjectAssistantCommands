@@ -1,0 +1,18 @@
+{
+  "Command":"DisableVerifyAdb",
+  "Category":"Android",
+  "Provider":"Kevin.Chen1220",
+  "SOC":["merlin7","merlin8","merlin9","mac7","mac8","mac9"],
+  "OS":["Android11","Android12","Android14"],
+  "Description":"Disable Verify adb",
+  "Action":{
+    "Command1":"settings put global development_settings_enabled 1",
+	"Sleep1":"1",
+	"Command2":"settings put global adb_enabled 1",
+	"Sleep2":"1",
+	"Command3":"settings put global verifier_verify_adb_installs 0",
+	"Sleep3":"1",
+	"Command4":"settings put global stay_on_while_plugged_in 3",
+	"Sleep4":"1"
+  }
+}

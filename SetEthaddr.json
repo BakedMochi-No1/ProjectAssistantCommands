@@ -1,0 +1,13 @@
+{
+  "Command":"SetEthaddr",
+  "Category":"Bootcode",
+  "Provider":"Kevin.Chen1220",
+  "SOC":["merlin7","merlin8","merlin9","mac7","mac8","mac9"],
+  "OS":["Android11","Android12","Android14"],
+  "Description":"set ethaddr",
+  "Action":{
+    "Command1":"env set ethaddr 00:11:22:33:44:74",
+    "Sleep1":"5",
+    "Command2":"env save"
+  }
+}

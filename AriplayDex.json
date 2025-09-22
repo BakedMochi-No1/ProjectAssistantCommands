@@ -1,0 +1,11 @@
+{
+  "Command":"AirPlayDex",
+  "Category":"AirPlay",
+  "Provider":"Kevin.Chen1220",
+  "SOC":["merlin7","merlin8","merlin9","mac7","mac8","mac9"],
+  "OS":["Android11","Android12","Android14"],
+  "Description":"Airplay Dex 2 Oat",
+  "Action":{
+    "Command1":"cmd package compile -m speed-profile -f  com.realtek.airplay2"
+  }
+}

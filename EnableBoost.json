@@ -1,0 +1,15 @@
+{
+  "Command":"EnableKernelBoost",
+  "Category":"Kernel",
+  "Provider":"Kevin.Chen1220",
+  "SOC":["merlin7","merlin8","merlin9","mac7","mac8","mac9"],
+  "OS":["Android11","Android12","Android14"],
+  "Description":"EnableKernelBoost",
+  "Action":{
+    "Command1":"cat /sys/devices/system/cpu/cpufreq/policy0/cpuinfo_cur_freq",
+	"Command2":"echo 720 > /sys/realtek_boards/rtk_boost/timeout",
+	"Command3":"echo 1 > /sys/realtek_boards/rtk_boost/performance",
+	"Command4":"echo 1 > /sys/devices/system/cpu/cpufreq/boost",
+	"Command5":"cat /sys/devices/system/cpu/cpufreq/policy0/cpuinfo_cur_freq"
+  }
+}

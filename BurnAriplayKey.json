@@ -1,0 +1,11 @@
+{
+  "Command":"BurnAirplayKey",
+  "Category":"AirPlay",
+  "Provider":"Kevin.Chen1220",
+  "SOC":["merlin7","merlin8","merlin9","mac7","mac8","mac9"],
+  "OS":["Android11","Android12","Android14"],
+  "Description":"Burn Airplay Key",
+  "Action":{
+    "Command1":"am broadcast -a Show.Home.AirplayAPK -f 0x01000000"
+  }
+}

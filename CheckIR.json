@@ -1,0 +1,16 @@
+{
+  "Command": "CheckIR",
+  "Category": "IR",
+  "Provider": "Kevin.Chen1220",
+  "SOC": ["merlin7"],
+  "OS": ["Android11", "Android12", "Android14"],
+  "Description": "Check IR",
+  "Action": {
+    "Command1": "cd /",
+    "Command2": "echo logfilter module_set name=IR level=7 save_flag=1 > /sys/realtek_boards/rtdlog ",
+	"Command3": "echo 1 > sys/venus_ir/ir_decode_debug",
+	"Command4": "dmesg | grep \"IR\"",
+	"Sleep1":"5",
+	"Command5": "dmesg | grep \"IR\""
+  }
+}

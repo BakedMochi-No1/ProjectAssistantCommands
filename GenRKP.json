@@ -4,11 +4,9 @@
   "Provider":"Kevin.Chen1220",
   "SOC":["merlin7","merlin8","merlin9","mac7","mac8","mac9"],
   "OS":["Android11","Android12","Android14"],
-  "Description":"Generate RKP and Check System ID",
+  "Description":"Generate RKP and Check System ID　\n Reset RKP : \n rm -fr /data/vendor/mediadrm/IDM1013/L1/oemcert.bin \n generate csr.json and upload \n",
   "Action":{
-    "Command":[
-      "rkp_factory_extraction_tool --output_format build{+}csr > /data/csr.json",
-      "dumpsys android.hardware.drm.IDrmFactory/widevine -p | grep system_id"
-    ]
+    "Command1":"rkp_factory_extraction_tool --output_format build{+}csr > /data/csr.json",
+    "Command2":"dumpsys android.hardware.drm.IDrmFactory/widevine -p | grep system_id"
   }
 }

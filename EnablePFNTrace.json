@@ -1,0 +1,12 @@
+{
+  "Command":"EnablePFNTrace",
+  "Category":"Kernel",
+  "Provider":"Kevin.Chen1220",
+  "SOC":["merlin7","merlin8","merlin9","mac7","mac8","mac9"],
+  "OS":["Android11","Android12","Android14"],
+  "Description":"EnablePFNTrace",
+  "Action":{
+	"Command1":"cd /data",
+    "Command2":"./ftrace_test_an11.sh 0x20400 0x2c400"
+  }
+}
