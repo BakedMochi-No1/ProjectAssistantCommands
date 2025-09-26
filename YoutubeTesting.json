@@ -1,9 +1,10 @@
 {
+  "Command":"YoutubeTesting",
   "Category":"Media",
   "Provider":"Kevin.Chen1220",
+  "MarkingRange":"true",
   "SOC":["merlin7","merlin8","merlin9","mac7","mac8","mac9"],
   "OS":["Android11","Android12","Android14"],
-  "Command":"YoutubeTesting",
   "Description":"Change Source between Youtube and Launcher",
   "Action":{
     "Command":"am start -a android.intent.action.VIEW -d 'https://youtube.com/watch?v=lv6Z6_duWFY'",

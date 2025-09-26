@@ -2,6 +2,7 @@
   "Command": "ChangeProjectID",
   "Category": "RTK",
   "Provider": "Kevin.Chen1220",
+  "MarkingRange":"false",
   "SOC": ["merlin7"],
   "OS": ["Android11", "Android12", "Android14"],
   "Description": "Change Demoboard Project ID",

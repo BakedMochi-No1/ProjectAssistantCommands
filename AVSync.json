@@ -1,9 +1,10 @@
 {
+  "Command":"ShowAVSyncLog",
   "Category":"Media",
   "Provider":"Kevin.Chen1220",
+  "MarkingRange":"true",
   "SOC":["merlin7","merlin8","merlin9","mac7","mac8","mac9"],
   "OS":["Android11","Android12","Android14"],
-  "Command":"ShowAVSyncLog",
   "Description":"Show Detail for AVSync",
   "Action":{
     "Command1":"setprop log.tag.C2_VDEC V",

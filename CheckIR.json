@@ -2,6 +2,7 @@
   "Command": "CheckIR",
   "Category": "IR",
   "Provider": "Kevin.Chen1220",
+  "MarkingRange":"true",
   "SOC": ["merlin7"],
   "OS": ["Android11", "Android12", "Android14"],
   "Description": "Check IR",

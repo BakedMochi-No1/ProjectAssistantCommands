@@ -2,12 +2,11 @@
   "Command":"StracePID",
   "Category":"Android",
   "Provider":"Kevin.Chen1220",
+  "MarkingRange":"false",
   "SOC":["merlin7","merlin8","merlin9","mac7","mac8","mac9"],
   "OS":["Android11","Android12","Android14"],
   "Description":"Show System Call by Specify PID",
   "Action":{
-    "Command":
-      "strace -e trace=setsockopt -p  `pidof com.google.android.apps.mediashell`"
-    
+    "Command":"strace -e trace=setsockopt -p  `pidof com.google.android.apps.mediashell`"
   }
 }

@@ -2,6 +2,7 @@
   "Command":"GenRKP",
   "Category":"Android",
   "Provider":"Kevin.Chen1220",
+  "MarkingRange":"true",
   "SOC":["merlin7","merlin8","merlin9","mac7","mac8","mac9"],
   "OS":["Android11","Android12","Android14"],
   "Description":"Generate RKP and Check System ID　\n Reset RKP : \n rm -fr /data/vendor/mediadrm/IDM1013/L1/oemcert.bin \n generate csr.json and upload \n",

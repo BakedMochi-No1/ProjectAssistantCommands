@@ -2,6 +2,7 @@
   "Command": "SetPID",
   "Category": "TCL",
   "Provider": "Kevin.Chen1220",
+  "MarkingRange":"true",
   "SOC": ["merlin7"],
   "OS": ["Android11", "Android12", "Android14"],
   "Description": "Set PIDPCB\tPanel尺寸\tPID\tPID切換指令\nH4\t55\t4\techo -e -n \"\\x4\\x0\" > /impdata/project_id.bin\nH4\t75\t3\techo -e -n \"\\x3\\x0\" > /impdata/project_id.bin\nH4\t65\t8\techo -e -n \"\\x8\\x0\" > /impdata/project_id.bin\nH4(new amp)\t75\t9\techo -e -n \"\\x9\\x0\" > /impdata/project_id.bin\nH4(new amp)\t55\t10\techo -e -n \"\\xa\\x0\" > /impdata/project_id.bin\nH4(new amp)\t65\t11\techo -e -n \"\\xb\\x0\" > /impdata/project_id.bin\nH3\t55\t6\techo -e -n \"\\x6\\x0\" > /impdata/project_id.bin\nH3\t75\t7\techo -e -n \"\\x7\\x0\" > /impdata/project_id.bin",
