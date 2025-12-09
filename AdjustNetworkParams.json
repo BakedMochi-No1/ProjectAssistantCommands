@@ -1,0 +1,30 @@
+{
+  "Command":"AdjustNetworkParams",
+  "Category":"Performance",
+  "Provider":"Kevin.Chen1220",
+  "MarkingRange":"false",
+  "SOC":["merlin7","merlin8","merlin9","mac7","mac8","mac9"],
+  "OS":["Android11","Android12","Android14"],
+  "Description":"Adjust Network Params",
+  "Action":{
+    "Command1":"echo 4194304 > /proc/sys/net/core/rmem_max",
+	"Sleep1":"1",
+	"Command2":"echo 4194304 > /proc/sys/net/core/wmem_max",
+	"Sleep2":"1",
+	"Command3":"echo 4194304 > /proc/sys/net/ipv4/tcp_limit_output_bytes",	
+	"Sleep3":"1",
+	"Command4":"echo 1 > /proc/sys/net/ipv4/tcp_moderate_rcvbuf",	
+	"Sleep4":"1",
+	"Command5":"echo 3 > /proc/sys/net/ipv4/tcp_fastopen",	
+	"Sleep5":"1",
+	"Command6":"echo 1 > /proc/sys/net/ipv4/tcp_tw_reuse",	
+	"Sleep6":"1",
+	"Command7":"echo 15 > /proc/sys/net/ipv4/tcp_fin_timeout",
+	"Sleep7":"1",
+	"Command8":"echo 1 > /proc/sys/net/ipv4/tcp_no_metrics_save",
+	"Sleep8":"1",
+	"Command9":"echo 1 > /proc/sys/net/ipv4/tcp_low_latency",
+	"Sleep9":"1",
+	"Command10":"echo 3000 > /proc/sys/net/core/netdev_max_backlog"
+  }
+}

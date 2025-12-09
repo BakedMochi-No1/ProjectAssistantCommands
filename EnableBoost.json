@@ -11,6 +11,7 @@
 	"Command2":"echo 720 > /sys/realtek_boards/rtk_boost/timeout",
 	"Command3":"echo 1 > /sys/realtek_boards/rtk_boost/performance",
 	"Command4":"echo 1 > /sys/devices/system/cpu/cpufreq/boost",
-	"Command5":"cat /sys/devices/system/cpu/cpufreq/policy0/cpuinfo_cur_freq"
+	"Command5":"cat /sys/devices/system/cpu/cpufreq/policy0/cpuinfo_cur_freq",
+	"Command6":"cat /sys/devices/system/cpu/cpufreq/policy2/cpuinfo_cur_freq"
   }
 }

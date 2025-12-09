@@ -7,6 +7,7 @@
   "OS":["Android11","Android12","Android14"],
   "Description":"Show CMA Info",
   "Action":{
-	"Command1":"cat /proc/cma_info"
+	"Command1":" echo 7 > /proc/sys/kernel/printk",
+	"Command2":"cat /proc/cma_info"
   }
 }

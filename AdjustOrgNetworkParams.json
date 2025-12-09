@@ -1,0 +1,17 @@
+{
+  "Command":"AdjustOrgNetworkParams",
+  "Category":"Performance",
+  "Provider":"Kevin.Chen1220",
+  "MarkingRange":"false",
+  "SOC":["merlin7","merlin8","merlin9","mac7","mac8","mac9"],
+  "OS":["Android11","Android12","Android14"],
+  "Description":"Adjust Org Network Params",
+  "Action":{
+    "Command1":"echo 1500000 > /proc/sys/net/core/rmem_max",
+	"Command2":"echo 1500000 > /proc/sys/net/core/wmem_max",
+	"Command3":"echo 1500000 > /proc/sys/net/ipv4/tcp_limit_output_bytes",
+	"Command4":"echo 0 > /proc/sys/net/ipv4/tcp_no_metrics_save",
+	"Command5":"echo 0 > /proc/sys/net/ipv4/tcp_low_latency",
+	"Command6":"echo 1000 > /proc/sys/net/core/netdev_max_backlog"
+  }
+}
